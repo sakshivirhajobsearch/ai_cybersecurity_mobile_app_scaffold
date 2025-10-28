@@ -1,0 +1,119 @@
+# ========================================
+# Android / Kotlin / Gradle Git Ignore
+# ========================================
+
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle-wrapper.jar
+
+# Local Gradle files
+gradle-app.setting
+gradle.properties
+local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Kotlin Compile Cache
+kotlin/
+out/
+
+# Captured Logs
+*.log
+
+# Generated files
+captures/
+output.json
+navigation.json
+
+# NDK / C++ cache
+.externalNativeBuild/
+
+# Packaging
+*.apk
+*.ap_
+
+# ART/Dex
+*.dex
+*.class
+*.o
+*.so
+*.a
+
+# TFLite models (optional, remove if you commit models)
+*.tflite
+*.pb
+
+# Gradle caches
+**/.gradle/
+**/build/
+
+# Android build artifacts
+app/build/
+*/build/
+*.keystore
+*.jks
+
+# Firebase / secrets (if added later)
+google-services.json
+*.pem
+*.p12
+
+# Logs / Crash / Temp
+*.tmp
+*.temp
+*.swap
+*.log
+
+# OS Files
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.*
+
+# Python backend (if next to the android project)
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# JetBrains cache
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# ========================================
+# Project Specific Ignore (AI Cyber App)
+# ========================================
+
+# Model cache and preprocessing artifacts
+models/
+tokenizer_cache/
+*.txt.data
+*.json.cache
+
+# TensorFlow Lite task libs cache
+*.lite.h
+*.lite.meta
+
+# Prevent committing large AI datasets accidentally
+dataset/
+data/
+logs/
+
+# ========================================
+# Git keep rules (you may use these)
+# ========================================
+!app/src/main/
+!gradle/wrapper/

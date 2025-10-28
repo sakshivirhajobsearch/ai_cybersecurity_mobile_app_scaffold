@@ -1,0 +1,17 @@
+-keep class org.tensorflow.** { *; }
+-keep class org.tensorflow.lite.** { *; }
+-keepclassmembers class * { native <methods>; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep interface com.example.cyberai.network.** { *; }
+-keepclassmembers class com.example.cyberai.network.** { *; }
+-keepclassmembers class * { @com.google.gson.annotations.SerializedName <fields>; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn javax.annotation.**
+-dontwarn kotlinx.coroutines.**
+-keep class androidx.compose.** { *; }
+-keep class androidx.lifecycle.** { *; }
+-dontwarn androidx.compose.**
+-dontwarn androidx.lifecycle.**
+-keep class com.example.cyberai.** { *; }

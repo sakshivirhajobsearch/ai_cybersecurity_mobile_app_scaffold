@@ -1,0 +1,6 @@
+<resources>
+    <!-- Minimal XML theme just to satisfy the Android Manifest -->
+    <style name="Theme.CyberAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

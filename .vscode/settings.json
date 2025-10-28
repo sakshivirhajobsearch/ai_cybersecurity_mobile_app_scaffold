@@ -1,0 +1,6 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "workbench.settings.useSplitJSON": true,
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true
+}
