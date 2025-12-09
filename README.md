@@ -19,7 +19,7 @@ No description provided.
 
 ## 🧠 Tech Stack Used
 
-- **Detected Technologies:** Batchfile, Java, Kotlin, Python
+- **Detected Technologies:** Python, Java (Maven/Gradle), Android / Kotlin, FastAPI, TensorFlow / Keras
 - **GitHub Topics:** None
 
 ---
